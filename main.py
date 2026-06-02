@@ -513,6 +513,8 @@ async def get_course_students(
 
         )
 
+        }
+
     )
 
     return result.scalars().all()
